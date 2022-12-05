@@ -109,7 +109,7 @@
         #t_2_2
 
         .titulo-segundo.color-acento-contenido
-          h2 2.2  Herramientas informáticas
+          h2 2.3  Herramientas informáticas
 
         p.text-small El manejo y procesamiento de datos implica contar con herramientas informáticas que administren los registros, agilicen procesos y faciliten la comunicación. En el mercado hay una gran variedad de herramientas capaces de desarrollar este tipo de procesos, sin embargo, para seleccionar el software de registro de información adecuado, es necesario tener en cuenta algunos puntos clave, como: 
 

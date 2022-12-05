@@ -15,7 +15,7 @@
           .bloque-texto-b.color-cajon
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              p.mb-0 La entrevista se basa en la comunicación entre dos o más personas con el objetivo que una de las partes responda interrogantes específicos planteados previamente. Esta se podría considerar una de las técnicas de recolección de información más implementadas en los procesos investigativos de mercadeo 
+              p.mb-0.text-small La entrevista se basa en la comunicación entre dos o más personas con el objetivo que una de las partes responda interrogantes específicos planteados previamente. Esta se podría considerar una de las técnicas de recolección de información más implementadas en los procesos investigativos de mercadeo 
               b.edit3  (Grasso, 2006).
               i.fas.fa-quote-right                    
       .col-lg-3
@@ -30,15 +30,15 @@
           figure
             img.img-a.img-t(src='@/assets/curso/temas/Tema1/img2.svg')                        
         .col-lg-10
-          p Es importante mencionar que las entrevistas pueden tener distintos propósitos, como vincular nuevo personal en una vacante de trabajo o aportar datos en una investigación académica o de mercado, entre otros. Los aspectos principales que deben tenerse en cuenta en una entrevista son:
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Definir el tipo de resultados que se desea (cuantitativos o cualitativos).
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Establecer el entorno adecuado para llevarla a cabo (presencial, telefónica o virtual). 
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Elaborar preguntas coherentes, cortas y puntuales.
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Determinar si se hará de forma individual o grupal.
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Llevar a cabo un proceso riguroso de preparación.
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Tener claridad sobre los temas que se van a tratar.
-          p <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Darles un tratamiento muy cuidadoso a los datos obtenidos.
-    P.mt-2 De acuerdo con los diferentes criterios, las entrevistas se pueden clasificar de diversas formas. Según su estructura pueden ser estructuradas, semiestructuradas o no estructuradas.
+          p.text-small Es importante mencionar que las entrevistas pueden tener distintos propósitos, como vincular nuevo personal en una vacante de trabajo o aportar datos en una investigación académica o de mercado, entre otros. Los aspectos principales que deben tenerse en cuenta en una entrevista son:
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Definir el tipo de resultados que se desea (cuantitativos o cualitativos).
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Establecer el entorno adecuado para llevarla a cabo (presencial, telefónica o virtual). 
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Elaborar preguntas coherentes, cortas y puntuales.
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Determinar si se hará de forma individual o grupal.
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Llevar a cabo un proceso riguroso de preparación.
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Tener claridad sobre los temas que se van a tratar.
+          p.text-small <i class="fas fa-angle-right" STYLE="Color: #5C22C3"></i>  Darles un tratamiento muy cuidadoso a los datos obtenidos.
+    P.mt-2.text-small De acuerdo con los diferentes criterios, las entrevistas se pueden clasificar de diversas formas. Según su estructura pueden ser estructuradas, semiestructuradas o no estructuradas.
 
     .row.justify-content-around.align-items-center.mt-2.mb-5
       .col-lg-4
@@ -49,17 +49,17 @@
           
           .row(titulo="Estructuradas")
             .col-11
-              p.mb-0 Este tipo de entrevistas son usuales cuando se trata de evaluar candidatos a puestos específicos dentro de las empresas. En su mayoría facilitan la comparación entre varios candidatos con el propósito de seleccionar al más idóneo. Se realizan de forma ágil y presentan el mismo número de oportunidades para todas las personas encuestadas, procurando una selección justa.
+              p.mb-0.text-small Este tipo de entrevistas son usuales cuando se trata de evaluar candidatos a puestos específicos dentro de las empresas. En su mayoría facilitan la comparación entre varios candidatos con el propósito de seleccionar al más idóneo. Se realizan de forma ágil y presentan el mismo número de oportunidades para todas las personas encuestadas, procurando una selección justa.
           .row(titulo="Semiestructuradas ")
             .col-11
-              p.mb-0 En estas entrevistas las preguntas pueden o no seguir un orden específico. El entrevistador tiene una guía sobre el tipo y las preguntas que puede hacer, sin embargo, no está obligado a hacerlas todas y tiene la libertad de indagar sobre otros temas, conforme a lo que considere necesario según su criterio.
+              p.mb-0.text-small En estas entrevistas las preguntas pueden o no seguir un orden específico. El entrevistador tiene una guía sobre el tipo y las preguntas que puede hacer, sin embargo, no está obligado a hacerlas todas y tiene la libertad de indagar sobre otros temas, conforme a lo que considere necesario según su criterio.
           
           .row(titulo="No estructuradas")
             .col-11
-              p.mb-0 Estas entrevistas se caracterizan porque el entrevistador no sigue un orden. Son únicas para cada candidato, ya que según transcurre la entrevista, el entrevistador hará, o no, algunas preguntas. Entre sus principales características está que en su mayoría son improvisadas y tienen una gran adaptabilidad a los temas tratados. Cabe resaltar que el hecho de que estas entrevistas sean ‘improvisadas’ no significa que el entrevistador desconozca el tema, más bien es todo lo contrario, ya que el entrevistador debe conocerlo lo suficientemente bien como para poder tener la flexibilidad y capacidad de hacer preguntas aleatorias y acertadas.
+              p.mb-0.text-small Estas entrevistas se caracterizan porque el entrevistador no sigue un orden. Son únicas para cada candidato, ya que según transcurre la entrevista, el entrevistador hará, o no, algunas preguntas. Entre sus principales características está que en su mayoría son improvisadas y tienen una gran adaptabilidad a los temas tratados. Cabe resaltar que el hecho de que estas entrevistas sean ‘improvisadas’ no significa que el entrevistador desconozca el tema, más bien es todo lo contrario, ya que el entrevistador debe conocerlo lo suficientemente bien como para poder tener la flexibilidad y capacidad de hacer preguntas aleatorias y acertadas.
 
 
-    p.mt-2 Es importante mencionar que la entrevista es una técnica para recoger información que puede presentar tanto beneficios como desventajas para la organización que la práctica. Algunos de los factores más relevantes son:
+    p.text-small Es importante mencionar que la entrevista es una técnica para recoger información que puede presentar tanto beneficios como desventajas para la organización que la práctica. Algunos de los factores más relevantes son:
     .row.justify-content-around.align-items-center.mt-2.mb-5
       .col-lg-7
         ImagenInfograficaB.color-acento-botones
@@ -70,22 +70,22 @@
          
           div(x="28%" y="49%" tooltip="Ver más" numero="+")
             .h5.mb-2 Beneficios
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Se puede desarrollar un estudio en profundidad sobre temas específicos.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Se puede hacer en lugares físicos o virtuales.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Según el tipo de preguntas, dentro de esta se podrá organizar la información de forma ágil y específica.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Facilita la comunicación del entrevistado con el entrevistador.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Se pueden resolver interrogantes que se presenten durante la entrevista.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Permite manejar o controlar el espacio donde se desarrolla la entrevista, con el fin de contribuir a la comunicación con los entrevistados. 
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  En algunos casos es posible identificar la competencia de acuerdo con la perspectiva del cliente.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Se puede desarrollar un estudio en profundidad sobre temas específicos.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Se puede hacer en lugares físicos o virtuales.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Según el tipo de preguntas, dentro de esta se podrá organizar la información de forma ágil y específica.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Facilita la comunicación del entrevistado con el entrevistador.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Se pueden resolver interrogantes que se presenten durante la entrevista.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Permite manejar o controlar el espacio donde se desarrolla la entrevista, con el fin de contribuir a la comunicación con los entrevistados. 
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  En algunos casos es posible identificar la competencia de acuerdo con la perspectiva del cliente.
 
           
           div(x="87%" y="35%" tooltip="Ver más" numero="+")
             .h5.mb-2 Desventajas
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  El factor tiempo influye, ya que la entrevista exige preparación, desarrollo, organización y análisis de la información recolectada.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Es necesario capacitar al personal que lleve a cabo el proceso (encuestadores).
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  No presenta una forma de comprobación de la información recolectada.
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Puede tener un costo elevado (materiales, contratación de personal capacitado, pago o remuneración a los participantes de las entrevistas, entre otros).
-            p <i class="fas fa-angle-right" STYLE="Color: white"></i>  Un ambiente inapropiado para el desarrollo de la entrevista puede alterar sus resultados.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  El factor tiempo influye, ya que la entrevista exige preparación, desarrollo, organización y análisis de la información recolectada.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Es necesario capacitar al personal que lleve a cabo el proceso (encuestadores).
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  No presenta una forma de comprobación de la información recolectada.
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Puede tener un costo elevado (materiales, contratación de personal capacitado, pago o remuneración a los participantes de las entrevistas, entre otros).
+            p.text-small <i class="fas fa-angle-right" STYLE="Color: white"></i>  Un ambiente inapropiado para el desarrollo de la entrevista puede alterar sus resultados.
     separador
       
     #t_1_1
@@ -99,7 +99,7 @@
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption VIDEO
 
-    p.mt-5 Gracias a los diferentes avances registrados en los últimos años, las empresas y demás organizaciones han optado por desarrollar entrevistas usando herramientas informáticas, ya que facilitan y optimizan los procesos; el entrevistado no tendrá que trasladarse a ningún lugar y el entrevistador u organización entrevistadora agilizará y ahorrará recursos. Algunas de las herramientas informáticas más implementadas para el desarrollo de entrevistas son: 
+    p.mt-5.text-small Gracias a los diferentes avances registrados en los últimos años, las empresas y demás organizaciones han optado por desarrollar entrevistas usando herramientas informáticas, ya que facilitan y optimizan los procesos; el entrevistado no tendrá que trasladarse a ningún lugar y el entrevistador u organización entrevistadora agilizará y ahorrará recursos. Algunas de las herramientas informáticas más implementadas para el desarrollo de entrevistas son: 
 
 
    
@@ -110,26 +110,26 @@
             
             .row(titulo="Aplicaciones de videoconferencias ")
               .col-11
-                p.mb-0 Facilitan la comunicación del entrevistado con el entrevistador, en audio y video en tiempo real. Algunas permiten el uso de un chat dentro de la misma videoconferencia, usar una pizarra digital y proyectar la pantalla, entre otras funciones que facilitan y permiten comprender mejor la información. Entre las aplicaciones más conocidas e implementadas están Google Meet, Zoom y Skype. Esta última fue la pionera en dicha modalidad, siendo, irónicamente, la menos utilizada hoy en día.
+                p.mb-0.text-small Facilitan la comunicación del entrevistado con el entrevistador, en audio y video en tiempo real. Algunas permiten el uso de un chat dentro de la misma videoconferencia, usar una pizarra digital y proyectar la pantalla, entre otras funciones que facilitan y permiten comprender mejor la información. Entre las aplicaciones más conocidas e implementadas están Google Meet, Zoom y Skype. Esta última fue la pionera en dicha modalidad, siendo, irónicamente, la menos utilizada hoy en día.
 
             .row(titulo="Elementos visuales introductorios")
               .col-11
-                p.mb-0 En algunos procesos de entrevistas se desarrollan elementos introductorios que facilitan una comunicación recíproca entre el entrevistador y el entrevistado. Este tipo de herramientas optimizan y ayudan a ahorrar tiempo durante un proceso investigativo. Dentro de las herramientas audiovisuales se pueden presentar audios, videos, imágenes, gráficos, entre otros. Esas presentaciones se hacen mediante aplicaciones de videoconferencia con diferentes funciones, como por ejemplo la de proyección de pantalla.
+                p.mb-0.text-small En algunos procesos de entrevistas se desarrollan elementos introductorios que facilitan una comunicación recíproca entre el entrevistador y el entrevistado. Este tipo de herramientas optimizan y ayudan a ahorrar tiempo durante un proceso investigativo. Dentro de las herramientas audiovisuales se pueden presentar audios, videos, imágenes, gráficos, entre otros. Esas presentaciones se hacen mediante aplicaciones de videoconferencia con diferentes funciones, como por ejemplo la de proyección de pantalla.
 
             .row(titulo="Cuestionarios en línea")
               .col-11
-                p.mb-0 La necesidad de llevar a cabo entrevistas en línea impulsó el desarrollo de portales específicos que facilitan el proceso de evaluación de los entrevistados a partir de cuestionarios, los cuales se pueden observar en tiempo real, por lo que el encuestador podrá monitorear a distancia el comportamiento y las respuestas seleccionadas por los entrevistados.
+                p.mb-0.text-small La necesidad de llevar a cabo entrevistas en línea impulsó el desarrollo de portales específicos que facilitan el proceso de evaluación de los entrevistados a partir de cuestionarios, los cuales se pueden observar en tiempo real, por lo que el encuestador podrá monitorear a distancia el comportamiento y las respuestas seleccionadas por los entrevistados.
 
 
             .row(titulo= "Uso de un  software   ATS ")
               .col-11
-                p.mb-0 También conocidos como sistemas de gestión del proceso de selección, son softwares que facilitan y permiten seleccionar al candidato más idóneo para un puesto de trabajo, por medio de pasos específicos que van desde su validación para una nueva vacante, hasta la contratación y capacitación del empleado. Cabe mencionar que estos softwares deberán estar acompañados por talento humano que valide y gestione los procesos específicos. 
+                p.mb-0.text-small También conocidos como sistemas de gestión del proceso de selección, son softwares que facilitan y permiten seleccionar al candidato más idóneo para un puesto de trabajo, por medio de pasos específicos que van desde su validación para una nueva vacante, hasta la contratación y capacitación del empleado. Cabe mencionar que estos softwares deberán estar acompañados por talento humano que valide y gestione los procesos específicos. 
 
         .col-lg-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/Tema1/img5.png", alt="alt")
     
-    p.mt-2 A continuación, se describirá el proceso de un software de ATS, que se encarga de facilitar la técnica de entrevistas en un ambiente laboral.
+    p.mt-2.text-small A continuación, se describirá el proceso de un software de ATS, que se encarga de facilitar la técnica de entrevistas en un ambiente laboral.
       
     .row.justify-content-around.align-items-center.mt-4.mb-5
       .col-lg-9
@@ -148,14 +148,14 @@
         .col-lg-2.my3
             img(src='@/assets/curso/temas/Tema1/img7.png')                        
         .col-lg-10.mt-5
-          p.mb-0 Las entrevistas presenciales no han dejado de ser utilizadas, debido a que muchas empresas consideran de vital importancia conocer en persona a los entrevistados. A pesar de que este tipo de técnica es utilizada desde hace varios años, las empresas pueden usar herramientas que facilitan y optimizan este proceso.
+          p.mb-0.text-small Las entrevistas presenciales no han dejado de ser utilizadas, debido a que muchas empresas consideran de vital importancia conocer en persona a los entrevistados. A pesar de que este tipo de técnica es utilizada desde hace varios años, las empresas pueden usar herramientas que facilitan y optimizan este proceso.
 
 
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Presentaciones de información" :icono="require('@/assets/curso/temas/Tema1/icono1.svg')")
         .row
           .col-md-8.mb-4.mb-md-0            
-            p Para la inducción al proceso de entrevista se pueden hacer presentaciones con información relevante sobre los procesos o conocimientos necesarios para llevar a cabo la entrevista. En estos se podrá dar una breve introducción sobre los temas, mostrar los elementos que se van a utilizar en la entrevista o establecer reglas específicas para el proceso. Algunos ejemplos de estos son las presentaciones de PowerPoint proyectadas en una pantalla, los folletos y guías, entre otros.
+            p.text-small Para la inducción al proceso de entrevista se pueden hacer presentaciones con información relevante sobre los procesos o conocimientos necesarios para llevar a cabo la entrevista. En estos se podrá dar una breve introducción sobre los temas, mostrar los elementos que se van a utilizar en la entrevista o establecer reglas específicas para el proceso. Algunos ejemplos de estos son las presentaciones de PowerPoint proyectadas en una pantalla, los folletos y guías, entre otros.
           .col-md-3
             figure
               img(src='@/assets/curso/temas/Tema1/img8.png', alt='Texto que describa la imagen')
@@ -163,7 +163,7 @@
       .py-4.py-md-5(titulo="Cuestionarios" :icono="require('@/assets/curso/temas/Tema1/icono1.svg')")
         .row
           .col-md-8.mb-4.mb-md-0            
-            p Según la información que se quiere extraer de las entrevistas, se podrá necesitar algún tipo de cuestionario específico, por lo que es necesario que estos se elaboren con anterioridad, dejando en claro que no podrán ser el centro de atención del proceso investigativo. 
+            p.text-small Según la información que se quiere extraer de las entrevistas, se podrá necesitar algún tipo de cuestionario específico, por lo que es necesario que estos se elaboren con anterioridad, dejando en claro que no podrán ser el centro de atención del proceso investigativo. 
           .col-md-3   
             figure
               img(src='@/assets/curso/temas/Tema1/img9.png', alt='Texto que describa la imagen')
@@ -171,7 +171,7 @@
       .py-4.py-md-5(titulo="Elementos comunicativos" :icono="require('@/assets/curso/temas/Tema1/icono3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0            
-            p Dentro de la recolección de información se pueden presentar elementos comunicativos para facilitar el proceso, por esto, a través de los años se ha decidido implementar diversos materiales, como tarjetas de presentación (en estas se indica el nombre de cada persona) y elementos didácticos para mejorar y contribuir con la comunicación en la entrevista.
+            p.text-small Dentro de la recolección de información se pueden presentar elementos comunicativos para facilitar el proceso, por esto, a través de los años se ha decidido implementar diversos materiales, como tarjetas de presentación (en estas se indica el nombre de cada persona) y elementos didácticos para mejorar y contribuir con la comunicación en la entrevista.
           .col-md-3
             figure
               img(src='@/assets/curso/temas/Tema1/img10.png', alt='Texto que describa la imagen')
@@ -179,7 +179,7 @@
       .py-4.py-md-5(titulo="Espacios adecuados" :icono="require('@/assets/curso/temas/Tema1/icono4.svg')")
         .row
           .col-md-8.mb-4.mb-md-0            
-            p A pesar de no considerarse una herramienta específica, es de vital importancia preparar un espacio adecuado para el proceso investigativo, por lo que se considera de alta prioridad tener un lugar apto para las entrevistas. Se recomienda tener allí todos los elementos necesarios para el proceso investigativo, y que el ambiente cuente con buena iluminación y con características beneficiosas para el propósito investigativo (espacios abiertos, sin contaminación auditiva, etc.)
+            p.text-small A pesar de no considerarse una herramienta específica, es de vital importancia preparar un espacio adecuado para el proceso investigativo, por lo que se considera de alta prioridad tener un lugar apto para las entrevistas. Se recomienda tener allí todos los elementos necesarios para el proceso investigativo, y que el ambiente cuente con buena iluminación y con características beneficiosas para el propósito investigativo (espacios abiertos, sin contaminación auditiva, etc.)
           .col-md-3
             figure
               img(src='@/assets/curso/temas/Tema1/img10.png', alt='Texto que describa la imagen')
@@ -190,7 +190,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.3	Conceptos de comunicación 
 
-    p.mt-3 La definición de comunicación varía según el autor y la época, no obstante, hoy se considera como el intercambio de información entre dos o más personas, con un fin específico. Entre los principales elementos básicos que componen la comunicación se encuentran:
+    p.mt-3.text-small La definición de comunicación varía según el autor y la época, no obstante, hoy se considera como el intercambio de información entre dos o más personas, con un fin específico. Entre los principales elementos básicos que componen la comunicación se encuentran:
          
 
     .row

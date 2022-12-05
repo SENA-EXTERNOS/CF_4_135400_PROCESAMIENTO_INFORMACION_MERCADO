@@ -105,6 +105,126 @@
              figure
                   img(src='@/assets/curso/temas/Tema2/img7.png', alt='Texto que describa la imagen')
 
+        separador
+        #t_2_2
+
+        .titulo-segundo.color-acento-contenido
+          h2 2.2  Herramientas informáticas
+
+        p.text-small El manejo y procesamiento de datos implica contar con herramientas informáticas que administren los registros, agilicen procesos y faciliten la comunicación. En el mercado hay una gran variedad de herramientas capaces de desarrollar este tipo de procesos, sin embargo, para seleccionar el software de registro de información adecuado, es necesario tener en cuenta algunos puntos clave, como: 
+
+        .row.mt-3
+        
+        .col-lg-6
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--moradoColor")
+            
+            .row(titulo="Registrar todas las acciones que se desarrollen en tiempo real dentro del software ")
+              .col-11
+                p.mb-0.text-small Esto facilitará conocer los movimientos y los encargados de ellos, por lo que, si ocurre algún error dentro del proceso, se identificará a la persona responsable de dicha acción.
+            
+            .row(titulo="Proteger elementos dentro del registro de información")
+              .col-11.text-small
+                p.mb-0 El software deberá tener la capacidad de bloquear o eliminar elementos inútiles dentro del proceso productivo, y prevenir y eliminar posibles errores en la incorporación de nueva información.
+            
+            .row(titulo="Recuperar la información")
+              .col-11
+                p.mb-0 Es importante que el software permita recuperar información con facilidad, por lo que deberá contener copias de seguridad y otros elementos básicos para este proceso.
+
+            .row(titulo= "Tener un almacenamiento central")
+              .col-11.text-small
+                p.mb-0 Es importante, ya que ubicar la información en diferentes repositorios impedirá que sea encontrada con rapidez, obstaculizando el proceso de investigación y seguimiento.
+        .col-lg-5
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/temas/Tema2/img8.png", alt="alt")
+    
+
+        .row.mt-2   
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src="@/assets/curso/temas/Tema2/img9.png", alt="alt")    
+          .col-lg-6
+            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--moradoColor")
+              
+              .row(titulo="Ser seguro ")
+                .col-11
+                  p.mb-0.text-small Un sistema de seguridad específico para el registro de información es fundamental debido a que esta puede caer en manos equivocadas, ocasionando problemas que incluso pueden trascender al ámbito legal.
+              
+              .row(titulo="Leer varios formatos")
+                .col-11.text-small
+                  p.mb-0 La información puede estar registrada de diversas maneras: texto, audio, video, entre otros, por ello las herramientas informáticas deben ser capaces de leer cualquier documento en cualquier tipo de formato. 
+              
+              .row(titulo="Validar la búsqueda de información")
+                .col-11
+                  p.mb-0 Las herramientas informáticas deben ser capaces de encontrar de diferentes formas los datos almacenados; por este mismo motivo es importante que la información se guarde de manera ordenada y coherente.
+              
+              .row(titulo= "Ser accesible ")
+                .col-11.text-small
+                  p.mb-0 Es necesario que en cualquier lugar de la organización sea posible acceder a la información registrada.
+        separador
+        #t_2_4
+
+        .titulo-segundo.color-acento-contenido
+          h2 2.4   Verificación y supervisión de la información registrada
+
+        .row.justify-content-center 
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/Tema2/img10.png')
+
+        .row.mt-4.mb-5
+          
+          .col-lg-12
+            AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--amarillaColor")
+              
+              .row(titulo="Tiempo")
+                .col-12
+                  p.mb-0.text-small Fijar o establecer un tiempo determinado para desarrollar el proceso de verificación, ya que este puede variar según los momentos en que se vincula nueva información. Inspeccionar la información previamente establecida ayudará a detectar posibles fallas o errores.
+              .row(titulo="Cambios en la clasificación de la información")
+                .col-12
+                  p.mb-0.text-small Si se desarrollan cambios específicos dentro de la forma de registrar información, se deberán verificar los datos almacenados dentro del sistema.
+              
+
+              .row(titulo="Incremento de la información")
+                .col-12.text-small
+                  p.mb-0 En algunos casos en donde la información registrada no sea lo suficientemente útil, permitirá verificar la antigua y nueva información que se va a almacenar, clasificándola de acuerdo con los criterios establecidos.
+              
+              .row(titulo="Verificación en caso de fraude")
+                .col-12
+                  p.mb-0.text-small Es posible que al desarrollar otros procesos investigativos las organizaciones encuentren fallas, errores o fraudes en investigaciones relevantes, por eso se podrá verificar información almacenada previamente.
+
+              .row(titulo="Ajustes investigativos")
+                .col-12
+                  p.mb-0.text-small La información recolectada hace diez años variará, independientemente del enfoque en que se encuentre, por esto será primordial verificarla, con el fin de pasarla por un filtro para establecer su utilidad.
+
+              .row(titulo="Cambios en los sistemas de registro de información")
+                .col-12
+                  p.mb-0.text-small Si se cambia la herramienta de registro de información, las organizaciones tendrán la oportunidad de verificar la información antes de pasarla al nuevo sistema.
+            .row.justify-content-center      
+              .col-lg-11
+          
+                p.text-small Supervisar la información es de suma importancia para cualquier entidad, por lo que diariamente las herramientas informáticas desarrollan nuevos elementos para la coordinación de los datos. Algunas de estas funciones son:           
+
+         
+         
+          .row.justify-content-center      
+            .col-lg-8
+              
+              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Incluir nueva información. 
+              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Enviar o compartir información, ya sea dentro o fuera de la organización.
+              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Tener una red interna de información para que todas las áreas de la empresa compartan y conozcan la información registrada.
+              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Ordenar o agrupar información según sea la necesidad u objetivo de la investigación.
+              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Alertar sobre cambios o ajustes relevantes en el registro o movimiento de la información.
+
+            .col-lg-2
+              figure
+                img(src="@/assets/curso/temas/Tema2/ing11.png", alt="alt")
+    
+          
+          
+          p.text-small.mt-3 Aprendiz, ha culminado el estudio de todas las temáticas de este componente formativo, lo invitamos a que desarrolle la actividad didáctica y revise los materiales complementarios para que afiance sus conocimientos relacionados con la entrevista y el registro de información.  
+
+
+
 </template>
 
 <script>

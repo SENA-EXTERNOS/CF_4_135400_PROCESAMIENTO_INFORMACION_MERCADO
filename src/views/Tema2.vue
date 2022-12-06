@@ -14,23 +14,28 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema2/img1.png')})`}"
           )
           
-          .bloque-texto-g__texto.p-4              
-            .bloque-texto-b.color-adicional-1.p-4          
-              .bloque-texto-b.color-cajon                
+          .bloque-texto-g__texto.p-4                         
+            .bloque-texto-b.color-adicional-1.p-4                      
+              .bloque-texto-b.color-cajon                                
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left
-                  p.mb-0.text-small El registro de información es un proceso orientado a guardar datos relevantes sobre un acontecimiento en particular, con el fin de dejar soporte de ello y poder consultarlo posteriormente, para conocer características específicas de la información almacenada.
-                  b.edit3  (Kerin y Hartley, 2019).
+                  p.mb-0 El registro de información es un proceso orientado a guardar datos relevantes sobre un acontecimiento en particular, con el fin de dejar soporte de ello y poder consultarlo posteriormente, para conocer características específicas de la información almacenada.
+                  b.edit4  (Kerin y Hartley, 2019).
                   i.fas.fa-quote-right  
+
+
+
+
       .row.justify-content-center.align-items-center.mb-5.mt-5          
-        .col-lg-10
-          p.text-small Existen diferentes clases de registro de información, algunos de ellos son: 
-          p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Numéricos, como entradas y salidas de dinero.
-          p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Históricos, los cuales se enfocan en guardar información específica sobre hechos históricos.
-          p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Académicos o científicos, que guardan información sobre procesos de laboratorio.
-          p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Visuales, como fotografías, pinturas y esculturas.
-          p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  De audio, característicos de elementos sonoros como la música y los repositorios de programas de radio.
-    
+        .col-lg-10  
+          .cajon.color-Azul.p-4
+            p Existen diferentes clases de registro de información, algunos de ellos son: 
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Numéricos, como entradas y salidas de dinero.
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Históricos, los cuales se enfocan en guardar información específica sobre hechos históricos.
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Académicos o científicos, que guardan información sobre procesos de laboratorio.
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Visuales, como fotografías, pinturas y esculturas.
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  De audio, característicos de elementos sonoros como la música y los repositorios de programas de radio.
+      
 
         separador
 
@@ -44,7 +49,7 @@
             .bloque-texto-g.color-secundario.p-4.mb-4
               .row.justify-content-center            
                 .col-lg-8
-                  p.text-small El registro de información implica desarrollar varios procedimientos específicos, que incluyen codificar, clasificar y organizar la información. Esto posibilita una comunicación clara entre el desarrollo investigativo y su objetivo:
+                  p El registro de información implica desarrollar varios procedimientos específicos, que incluyen codificar, clasificar y organizar la información. Esto posibilita una comunicación clara entre el desarrollo investigativo y su objetivo:
                 .col-lg-2
             figure
               img(src='@/assets/curso/temas/Tema2/img2.png').imgdimensioncaj2
@@ -52,7 +57,7 @@
         TabsC.color-acento-contenido.mt-3
           .py-3.py-md-4(titulo="Codificación")
             .row
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 h4 Codificación
                 p.text-small Su objetivo es categorizar y validar los datos recolectados antes del proceso investigativo. A pesar de que los datos cuantitativos también deben cumplir con el proceso de codificación, se debe dejar en claro la importancia de invertir mayor tiempo y recursos para la adecuada codificación de la información cualitativa, que arroja resultados únicos. Existen dos formas de codificación:
                 p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Deductiva. En este caso, se deberán plantear características concretas antes de recolectar la información, deben indicarse las normas o códigos específicos para codificarla. Un ejemplo es una prueba de opción múltiple, donde cada respuesta corresponde a un porcentaje determinado, que luego se sumará con las demás respuestas para obtener un resultado final. 
@@ -63,7 +68,7 @@
                   
           .py-3.py-md-4(titulo="Clasificación")
             .row
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 h4 Clasificación
                 p.text-small  Este es uno de los procesos primordiales para registrar la información. Hay cuatro formas básicas, que podrán ser utilizadas en cualquier medio:
                 p.text-small  #[b 1.] 
@@ -81,7 +86,7 @@
                   img(src='@/assets/curso/temas/Tema2/img4.png', alt='Texto que describa la imagen')
           .py-3.py-md-4(titulo="Organización")
             .row
-              .col-md-7.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0
                 h4 Organización
                 p.text-small Ordenar la información es vital para todo proceso investigativo. Depende de las normas o parámetros que determine la organización y el objetivo de la investigación misma. Un ejemplo es clasificar las preguntas desde los datos básicos de las personas o instituciones entrevistadas, pasando por respuestas cuantitativas, y por último, las respuestas cualitativas, las cuales suelen ser las de mayor relevancia para la empresa.
               .col-md-3
@@ -89,33 +94,76 @@
                   img(src='@/assets/curso/temas/Tema2/img5.png', alt='Texto que describa la imagen')
 
         separador
-        #t_2_1
+        #t_2_2
 
         .titulo-segundo.color-acento-contenido
           h2 2.2  Tipos de registro 
+        .row
+          .col-lg-11
+            p El registro de información ha sufrido diferentes cambios a través de los años: en la antigüedad se almacenaba en papiros, a partir del desarrollo de la imprenta se pasó a los libros de texto, hasta la actualidad, donde se guarda información en navegadores por medio de la nube (Internet) y en repositorios. Es importante destacar que existen dos tipos de registro: el digital y el físico. Ambos son utilizados para depositar información específica para ser consultada de acuerdo con los criterios y la seguridad implementada.
 
-        p.text-small El registro de información ha sufrido diferentes cambios a través de los años: en la antigüedad se almacenaba en papiros, a partir del desarrollo de la imprenta se pasó a los libros de texto, hasta la actualidad, donde se guarda información en navegadores por medio de la nube (Internet) y en repositorios. Es importante destacar que existen dos tipos de registro: el digital y el físico. Ambos son utilizados para depositar información específica para ser consultada de acuerdo con los criterios y la seguridad implementada.
+        .row.justify-content-center.mt-5
+            .col-lg-5.mt-5               
+              .bloque-texto-g.color-secundario.p-4.mb-4
+                .row.justify-content-center  
+                      
+                  .col-lg-12.mt-5
+                    p.edit-angle.mt-3 <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Gran parte de la información es accesible desde cualquier lugar del mundo, gracias a navegadores como Google o Firefox.
+                    p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i> Se logra obtener información en segundos.
 
-        .row.justify-content-center   
-          .col-lg-5
-             figure
-                  img(src='@/assets/curso/temas/Tema2/img6.png', alt='Texto que describa la imagen')
-         
-          .col-lg-4.sm-2
-             figure
-                  img(src='@/assets/curso/temas/Tema2/img7.png', alt='Texto que describa la imagen')
+                    p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Contiene información engañosa o falsa.
+
+                    p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Incluye libros electrónicos, documentales en línea, repositorios académicos, bibliotecas, fotografías digitales, música, entre otros. 
+                  
+                  .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/Tema2/img12.png').imgdimensioncaj3  
+
+
+            .col-lg-6.mt-5            
+              .bloque-texto-g.color-secundario.p-4.mb-4
+                .row.justify-content-center  
+                      
+                  .col-lg-12.mt-5
+                    p.edit-angle.mt-5 <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Alguna de la información registrada se encuentra obsoleta
+                    p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i> No todas las personas tienen acceso a la información.
+
+                    p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Entre estos archivos es posible encontrar libros, fotografías, guías y cartillas, entre otros.
+                    p.mt-5
+                    p.mt-5
+                    
+
+                    
+                  .col-lg-4
+                    figure
+                      img(src='@/assets/curso/temas/Tema2/img13.png').imgdimensioncaj4      
+
+
+
+
+
+
+
+
+
+
+
 
         separador
-        #t_2_2
+        #t_2_3
 
         .titulo-segundo.color-acento-contenido
           h2 2.3  Herramientas informáticas
 
-        p.text-small El manejo y procesamiento de datos implica contar con herramientas informáticas que administren los registros, agilicen procesos y faciliten la comunicación. En el mercado hay una gran variedad de herramientas capaces de desarrollar este tipo de procesos, sin embargo, para seleccionar el software de registro de información adecuado, es necesario tener en cuenta algunos puntos clave, como: 
+        .row
+          .col-lg-11
+            p El manejo y procesamiento de datos implica contar con herramientas informáticas que administren los registros, agilicen procesos y faciliten la comunicación. En el mercado hay una gran variedad de herramientas capaces de desarrollar este tipo de procesos, sin embargo, para seleccionar el 
+              i software 
+              | de registro de información adecuado, es necesario tener en cuenta algunos puntos clave, como: 
 
         .row.mt-3
         
-        .col-lg-6
+        .col-lg-5
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--moradoColor")
             
             .row(titulo="Registrar todas las acciones que se desarrollen en tiempo real dentro del software ")
@@ -164,12 +212,12 @@
         #t_2_4
 
         .titulo-segundo.color-acento-contenido
-          h2 2.4   Verificación y supervisión de la información registrada
+          h2 2.4   Verificación y supervisión de la información registrada     
 
         .row.justify-content-center 
           .col-lg-10
             figure
-              img(src='@/assets/curso/temas/Tema2/img10.png')
+              img(src='@/assets/curso/temas/Tema2/img10.svg')
 
         .row.mt-4.mb-5
           
@@ -200,30 +248,36 @@
                 .col-12
                   p.mb-0.text-small Si se cambia la herramienta de registro de información, las organizaciones tendrán la oportunidad de verificar la información antes de pasarla al nuevo sistema.
             .row.justify-content-center      
-              .col-lg-11
+              .col-lg-10
           
-                p.text-small Supervisar la información es de suma importancia para cualquier entidad, por lo que diariamente las herramientas informáticas desarrollan nuevos elementos para la coordinación de los datos. Algunas de estas funciones son:           
+                p Supervisar la información es de suma importancia para cualquier entidad, por lo que diariamente las herramientas informáticas desarrollan nuevos elementos para la coordinación de los datos. Algunas de estas funciones son:           
 
          
          
-          .row.justify-content-center      
-            .col-lg-8
+          .row.justify-content-center     
+            .col-lg-8.mt-3 
               
-              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Incluir nueva información. 
-              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Enviar o compartir información, ya sea dentro o fuera de la organización.
-              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Tener una red interna de información para que todas las áreas de la empresa compartan y conozcan la información registrada.
-              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Ordenar o agrupar información según sea la necesidad u objetivo de la investigación.
-              p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Alertar sobre cambios o ajustes relevantes en el registro o movimiento de la información.
+              p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Incluir nueva información. 
+              p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Enviar o compartir información, ya sea dentro o fuera de la organización.
+              p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Tener una red interna de información para que todas las áreas de la empresa compartan y conozcan la información registrada.
+              p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Ordenar o agrupar información según sea la necesidad u objetivo de la investigación.
+              p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Alertar sobre cambios o ajustes relevantes en el registro o movimiento de la información.
 
             .col-lg-2
               figure
                 img(src="@/assets/curso/temas/Tema2/ing11.png", alt="alt")
     
           
+          .row
+            .col-lg-11
+              p.mt-3 Aprendiz, ha culminado el estudio de todas las temáticas de este componente formativo, lo invitamos a que desarrolle la actividad didáctica y revise los materiales complementarios para que afiance sus conocimientos relacionados con la entrevista y el registro de información.  
+
+
           
-          p.text-small.mt-3 Aprendiz, ha culminado el estudio de todas las temáticas de este componente formativo, lo invitamos a que desarrolle la actividad didáctica y revise los materiales complementarios para que afiance sus conocimientos relacionados con la entrevista y el registro de información.  
 
+               
 
+          
 
 </template>
 

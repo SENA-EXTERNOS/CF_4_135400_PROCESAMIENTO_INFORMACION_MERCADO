@@ -121,7 +121,7 @@
 
 
             .col-lg-6.mt-5            
-              .bloque-texto-g.color-secundario.p-4.mb-4
+              .bloque-texto-g.color-secundario.p-4.mb-4.heightbloquetexto
                 .row.justify-content-center  
                       
                   .col-lg-12.mt-5
@@ -166,17 +166,21 @@
         .col-lg-5
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--moradoColor")
             
-            .row(titulo="Registrar todas las acciones que se desarrollen en tiempo real dentro del software ")
+            .row(titulo="Registrar todas las acciones que se desarrollen en tiempo real dentro del <em>software</em> ")
               .col-11
                 p.mb-0.text-small Esto facilitará conocer los movimientos y los encargados de ellos, por lo que, si ocurre algún error dentro del proceso, se identificará a la persona responsable de dicha acción.
             
             .row(titulo="Proteger elementos dentro del registro de información")
               .col-11.text-small
-                p.mb-0 El software deberá tener la capacidad de bloquear o eliminar elementos inútiles dentro del proceso productivo, y prevenir y eliminar posibles errores en la incorporación de nueva información.
+                p.mb-0 El 
+                  i software 
+                  | deberá tener la capacidad de bloquear o eliminar elementos inútiles dentro del proceso productivo, y prevenir y eliminar posibles errores en la incorporación de nueva información.
             
             .row(titulo="Recuperar la información")
               .col-11
-                p.mb-0 Es importante que el software permita recuperar información con facilidad, por lo que deberá contener copias de seguridad y otros elementos básicos para este proceso.
+                p.mb-0 Es importante que el 
+                  i software 
+                  | permita recuperar información con facilidad, por lo que deberá contener copias de seguridad y otros elementos básicos para este proceso.
 
             .row(titulo= "Tener un almacenamiento central")
               .col-11.text-small
@@ -214,10 +218,30 @@
         .titulo-segundo.color-acento-contenido
           h2 2.4   Verificación y supervisión de la información registrada     
 
-        .row.justify-content-center 
-          .col-lg-10
-            figure
-              img(src='@/assets/curso/temas/Tema2/img10.svg')
+        
+
+        .row.justify-content-around.align-items-center
+          .col-10
+            .bloque-texto-g.color-secundario.lila.p-4.mb-4
+              .row.justify-content-around.align-items-center
+                
+                .col-11
+                  .row  
+                    .col-lg-2
+                      figure
+                        img(src="@/assets/curso/temas/Tema2/img14.svg").imgdimensioncajlila               
+                    .col.lg-11                   
+                      p.text-small Verificar la información es vital en cualquier proceso investigativo. Esta actividad consiste en la inspección de cada uno de los documentos o datos almacenados en un registro. El proceso puede variar de acuerdo con las políticas organizacionales. Entre las características para el desarrollo de este proceso se encuentran las siguientes:
+                  
+                    
+
+
+
+
+
+
+
+
 
         .row.mt-4.mb-5
           
@@ -272,8 +296,24 @@
             .col-lg-11
               p.mt-3 Aprendiz, ha culminado el estudio de todas las temáticas de este componente formativo, lo invitamos a que desarrolle la actividad didáctica y revise los materiales complementarios para que afiance sus conocimientos relacionados con la entrevista y el registro de información.  
 
+        .row.justify-content-center.mt-5  
+          .col-lg-2
+            figure
+              img(src='@/assets/curso/temas/Tema2/img14.png')
+          .col-lg-10                  
+            .bloque-texto-g.color-secundario.p-4.mb-4
+              .row           
+                .col-lg-8
+                  p.text-left El registro de la información es uno de los pasos fundamentales para el desarrollo investigativo. De ello dependerá conocer si todo el proceso ha sido lo suficientemente útil y eficaz para la institución. Este registro de información se encuentra adjunto con pasos específicos como la codificación, clasificación y organización. Otro aspecto, igual de importante, es verificar y supervisar adecuadamente esa información, con el fin de evitar fraudes u otros inconvenientes que desvíen el objetivo de la investigación.
 
-          
+
+
+
+
+
+
+        
+                    
 
                
 

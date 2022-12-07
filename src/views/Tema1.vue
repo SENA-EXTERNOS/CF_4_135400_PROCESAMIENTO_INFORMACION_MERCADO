@@ -124,15 +124,21 @@
                 p.mb-0 La necesidad de llevar a cabo entrevistas en línea impulsó el desarrollo de portales específicos que facilitan el proceso de evaluación de los entrevistados a partir de cuestionarios, los cuales se pueden observar en tiempo real, por lo que el encuestador podrá monitorear a distancia el comportamiento y las respuestas seleccionadas por los entrevistados.
 
 
-            .row(titulo= "Uso de un  software   ATS ")
+            .row(titulo= "Uso de un  <em>software</em>   ATS ")
               .col-11
-                p.mb-0 También conocidos como sistemas de gestión del proceso de selección, son softwares que facilitan y permiten seleccionar al candidato más idóneo para un puesto de trabajo, por medio de pasos específicos que van desde su validación para una nueva vacante, hasta la contratación y capacitación del empleado. Cabe mencionar que estos softwares deberán estar acompañados por talento humano que valide y gestione los procesos específicos. 
+                p.mb-0 También conocidos como sistemas de gestión del proceso de selección, son 
+                  i softwares 
+                  | que facilitan y permiten seleccionar al candidato más idóneo para un puesto de trabajo, por medio de pasos específicos que van desde su validación para una nueva vacante, hasta la contratación y capacitación del empleado. Cabe mencionar que estos 
+                  i softwares 
+                  | deberán estar acompañados por talento humano que valide y gestione los procesos específicos. 
 
         .col-lg-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/Tema1/img5.png", alt="alt")
     
-    p.mt-2 A continuación, se describirá el proceso de un software de ATS, que se encarga de facilitar la técnica de entrevistas en un ambiente laboral.
+    p.mt-2 A continuación, se describirá el proceso de un 
+      i software 
+      | de ATS, que se encarga de facilitar la técnica de entrevistas en un ambiente laboral.
       
     .row.justify-content-around.align-items-center.mt-4.mb-5
       .col-lg-9

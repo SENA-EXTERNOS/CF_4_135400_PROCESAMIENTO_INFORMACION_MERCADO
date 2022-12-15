@@ -101,8 +101,8 @@
         .row
           .col-lg-11
             p El registro de información ha sufrido diferentes cambios a través de los años: en la antigüedad se almacenaba en papiros, a partir del desarrollo de la imprenta se pasó a los libros de texto, hasta la actualidad, donde se guarda información en navegadores por medio de la nube (Internet) y en repositorios. Es importante destacar que existen dos tipos de registro: el digital y el físico. Ambos son utilizados para depositar información específica para ser consultada de acuerdo con los criterios y la seguridad implementada.
-
-        .row.justify-content-center.mt-5
+          
+        .row.mt-5.justify-content-center.mt-5
             .col-lg-5.mt-5               
               .bloque-texto-g.color-secundario.p-4.mb-4
                 .row.justify-content-center.mt-5
@@ -121,7 +121,7 @@
 
 
             .col-lg-6.mt-5            
-              .bloque-texto-g.color-secundario.p-4.mb-4.heightbloquetexto
+              .bloque-texto-g.color-secundario.p-4.mb-4
                 .row.justify-content-center.mt-5  
                       
                   .col-lg-12.mt-5

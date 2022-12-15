@@ -81,7 +81,7 @@
             p.edit-angle <i class="fas fa-angle-right" STYLE="Color: white"></i>  En algunos casos es posible identificar la competencia de acuerdo con la perspectiva del cliente.
 
           
-          div(x="87%" y="35%" tooltip="Ver más" numero="+")
+          div(x="86%" y="33%" tooltip="Ver más" numero="+")
             .h5.mb-2 Desventajas
             p.edit-angle <i class="fas fa-angle-right" STYLE="Color: white"></i>  El factor tiempo influye, ya que la entrevista exige preparación, desarrollo, organización y análisis de la información recolectada.
             p.edit-angle <i class="fas fa-angle-right" STYLE="Color: white"></i>  Es necesario capacitar al personal que lleve a cabo el proceso (encuestadores).
@@ -169,7 +169,7 @@
               figure
                 img(src='@/assets/curso/temas/Tema1/img8.png', alt='Texto que describa la imagen')
                 
-        .py-4.py-md-5(titulo="Cuestionarios" :icono="require('@/assets/curso/temas/Tema1/icono1.svg')")
+        .py-4.py-md-5(titulo="Cuestionarios" :icono="require('@/assets/curso/temas/Tema1/icono5.svg')")
           .row.justify-content-center.align-items-start 
             .col-md-7.mb-4.mb-md-0            
               p Según la información que se quiere extraer de las entrevistas, se podrá necesitar algún tipo de cuestionario específico, por lo que es necesario que estos se elaboren con anterioridad, dejando en claro que no podrán ser el centro de atención del proceso investigativo. 
@@ -191,7 +191,7 @@
               p A pesar de no considerarse una herramienta específica, es de vital importancia preparar un espacio adecuado para el proceso investigativo, por lo que se considera de alta prioridad tener un lugar apto para las entrevistas. Se recomienda tener allí todos los elementos necesarios para el proceso investigativo, y que el ambiente cuente con buena iluminación y con características beneficiosas para el propósito investigativo (espacios abiertos, sin contaminación auditiva, etc.)
             .col-md-3
               figure
-                img(src='@/assets/curso/temas/Tema1/img10.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/Tema1/img.svg', alt='Texto que describa la imagen')
       separador
 
       #t_1_3
@@ -216,7 +216,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon1.png", alt="alt").img100
               .col-lg-7
                 h5 Emisor
-                p.text-small Es el encargado de producir y enviar un mensaje. 
+                p Es el encargado de producir y enviar un mensaje. 
           
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
@@ -225,7 +225,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon2.png", alt="alt").img100
               .col-lg-7 
                 h5 Receptor 
-                p.text-small Es quien recibe y decodifica el mensaje, sin embargo, lo que decida hacer con el mensaje dependerá únicamente de él mismo.
+                p Es quien recibe y decodifica el mensaje, sin embargo, lo que decida hacer con el mensaje dependerá únicamente de él mismo.
           
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
@@ -234,7 +234,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon3.png", alt="alt").img100
               .col-lg-7
                 h5 Mensaje 
-                p.text-small Información que se quiere transmitir.
+                p Información que se quiere transmitir.
           
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
@@ -243,7 +243,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon4.png", alt="alt").img100
               .col-lg-7
                 h5 Canal 
-                p.text-small Es el medio físico por el que se envía el mensaje, como correo, cara a cara, mensaje de texto, Internet, entre otros.
+                p Es el medio físico por el que se envía el mensaje, como correo, cara a cara, mensaje de texto, Internet, entre otros.
 
           .crd.crd--avatarHorizontal.crd--last.dos.py-4
             .row.align-items-center
@@ -252,7 +252,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon5.png", alt="alt").img100
               .col-lg-7
                 h5 Contexto  
-                p.text-small Es el lugar o la situación en la que se desarrolla el mensaje.
+                p Es el lugar o la situación en la que se desarrolla el mensaje.
 
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center
@@ -261,7 +261,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon6.png", alt="alt").img100
               .col-lg-7
                 h5 Referente  
-                p.text-small Es lo que busca evocar el mensaje, es decir, un conocimiento o saber compartido previo.
+                p Es lo que busca evocar el mensaje, es decir, un conocimiento o saber compartido previo.
 
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
@@ -270,7 +270,7 @@
                   img(src="@/assets/curso/temas/Tema1/icon7.png", alt="alt").img100
               .col-lg-7
                 h5 Código  
-                p.text-small Son los signos o reglas implementadas para transmitir el mensaje, por ejemplo, números, letras, braille, imágenes, entre otros.
+                p Son los signos o reglas implementadas para transmitir el mensaje, por ejemplo, números, letras, braille, imágenes, entre otros.
     
       p.mt-4 La comunicación puede llegar a tener diferentes funciones según el contexto, tema o personas involucradas. Algunas de estas funciones son:
 
@@ -355,7 +355,9 @@
 
             .col-md-8.mb-4.mb-md-0
               b Estética o poética  
-              p Se centra en embellecer o crear un mensaje con un impacto poco tradicional y más lúdico. Es empleada en publicidad o marketing para hacer más llamativos los mensajes para el cliente.
+              p Se centra en embellecer o crear un mensaje con un impacto poco tradicional y más lúdico. Es empleada en publicidad o 
+                i marketing 
+                | para hacer más llamativos los mensajes para el cliente.
 
 
 
@@ -445,44 +447,44 @@
         h2 1.4 	Comunicación asertiva
 
       .row       
-        .col-lg-9.mt-5
+        .col-lg-9.mt-3
           p Comunicarse es tan solo el primer paso para la transmisión de un mensaje. Es necesario que las personas logren una convivencia sana con la sociedad. La comunicación asertiva es la habilidad que tienen las personas para transmitir información de una forma respetuosa, directa y con calma. Existen algunos elementos característicos que reconocen y permiten llevar a cabo una comunicación asertiva. 
-        .col-lg-2
+        .col-lg-3
           img(src='@/assets/curso/temas/Tema1/img12.png')  
 
 
-      .row.mt-2
+      .row.mt-4
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/Tema1/img13.png", alt="alt")
           
-          .col-lg-6.mt-3
+          .col-lg-7.mt-3
             LineaTiempoD.color-acento-contenido
               .row(numero="1" titulo="Prestar atención y valorar la situación ")
-                .col-md-10.mb-4.mb-md-0
+                .col-md-12.mb-4.mb-md-0
                   p Antes de incluirse dentro de una conversación, o ser parte de esta, es importante estudiar el contexto en el que se desarrolla para evitar malentendidos, en especial si es sobre política, asuntos personales o religión, entre otros temas delicados.
                 
 
               .row(numero="2" titulo="Ser sencillo (no usar tecnicismos) ")
                 
-                .col-md-10.mb-4.mb-md-0
+                .col-md-12.mb-4.mb-md-0
                   p En este punto es importante tener en cuenta con qué personas se está llevando a cabo la conversación, ya que, si todos conocen el tema, se podrá recurrir a terminología específica, de lo contrario es mejor usar un lenguaje sencillo.
               
               .row(numero="3" titulo="Cuidar el lenguaje no verbal ")
                 
-                .col-md-10.mb-4.mb-md-0
+                .col-md-12.mb-4.mb-md-0
                   p La postura y el tono de voz van ligados directamente a la forma como nos comunicamos. Por esa razón el lenguaje no verbal se debe cuidar, con el fin de evitar molestias o dar la imagen equivocada. El contacto visual, el tono de voz muy alto, o muy bajo, pueden afectar la comunicación.
 
-              .row(numero="3" titulo="Respeto y coherencia  ")              
-                .col-md-10.mb-4.mb-md-0
+              .row(numero="4" titulo="Respeto y coherencia  ")              
+                .col-md-12.mb-4.mb-md-0
                   p Todos los seres humanos piensan y actúan de forma diferente, por ello es necesario incluir el respeto dentro de una buena comunicación. Otro factor primordial es la coherencia, para evitar malentendidos y problemas de interpretación.
 
-              .row(numero="3" titulo="Manejar los sentimientos ")              
-                .col-md-6.mb-4.mb-md-0
+              .row(numero="5" titulo="Manejar los sentimientos ")              
+                .col-md-12.mb-4.mb-md-0
                   p Aprender a controlar los sentimientos es clave a la hora de comunicarnos. Dejarse llevar por la ira o el enfado, mostrar ironía o reírse en el momento menos oportuno puede enrarecer el ambiente comunicativo y echar a perder un negocio, el alcance de un cliente e incluso una amistad.  
 
-              .row(numero="3" titulo="Validar la comprensión del mensaje  ")              
-                .col-md-10.mb-4.mb-md-0
+              .row(numero="6" titulo="Validar la comprensión del mensaje  ")              
+                .col-md-12.mb-4.mb-md-0
                   p Es importante asegurarse de que el mensaje fue lo suficientemente claro y que se entendió. Para ello es bueno preguntar directamente si se tienen dudas o comentarios sobre lo comunicado.
 
         

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Entrevista y registro de información',
     descripcionCurso:
-      'La entrevista y el registro de información son parte fundamental del proceso investigativo y el cumplimiento de sus objetivos. En este componente formativo se plantearán los elementos para el desarrollo adecuado de una entrevista; los recursos básicos para el registro de la información y actividades prácticas para aplicar la fundamentación teórica adquirida',
+      'La entrevista y el registro de información son parte fundamental del proceso investigativo y el cumplimiento de sus objetivos. En este componente formativo se plantearán los elementos para el desarrollo adecuado de una entrevista; los recursos básicos para el registro de la información y actividades prácticas para aplicar la fundamentación teórica adquirida.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [

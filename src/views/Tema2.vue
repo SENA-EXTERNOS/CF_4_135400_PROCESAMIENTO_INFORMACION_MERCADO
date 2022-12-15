@@ -7,14 +7,14 @@
         span 2
       h1 Registro de información
     
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-11
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="flip-down")
+    .row.justify-content-center.align-items-center           
+      .col-lg-12
+        .bloque-texto-g.color-acento-contenido.p-1.p-sm-4.p-md-5(data-aos="flip-down")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema2/img1.png')})`}"
           )
           
-          .bloque-texto-g__texto.p-4                         
+          .bloque-texto-g__texto.p-5                        
             .bloque-texto-b.color-adicional-1.p-4                      
               .bloque-texto-b.color-cajon                                
                 .bloque-texto-b__texto
@@ -57,39 +57,39 @@
         TabsC.color-acento-contenido.mt-3
           .py-3.py-md-4(titulo="Codificación")
             .row
-              .col-md-6.mb-4.mb-md-0
+              .col-md-9.mb-4.mb-md-0
                 h4 Codificación
-                p.text-small Su objetivo es categorizar y validar los datos recolectados antes del proceso investigativo. A pesar de que los datos cuantitativos también deben cumplir con el proceso de codificación, se debe dejar en claro la importancia de invertir mayor tiempo y recursos para la adecuada codificación de la información cualitativa, que arroja resultados únicos. Existen dos formas de codificación:
-                p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Deductiva. En este caso, se deberán plantear características concretas antes de recolectar la información, deben indicarse las normas o códigos específicos para codificarla. Un ejemplo es una prueba de opción múltiple, donde cada respuesta corresponde a un porcentaje determinado, que luego se sumará con las demás respuestas para obtener un resultado final. 
-                p.edit-angle.text-small <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Inductiva. Como su nombre lo indica, no tiene normas o criterios previos, por lo que su codificación se deberá desarrollar a partir de los resultados obtenidos durante el proceso investigativo.
-              .col-md-3
+                p Su objetivo es categorizar y validar los datos recolectados antes del proceso investigativo. A pesar de que los datos cuantitativos también deben cumplir con el proceso de codificación, se debe dejar en claro la importancia de invertir mayor tiempo y recursos para la adecuada codificación de la información cualitativa, que arroja resultados únicos. Existen dos formas de codificación:
+                p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Deductiva. En este caso, se deberán plantear características concretas antes de recolectar la información, deben indicarse las normas o códigos específicos para codificarla. Un ejemplo es una prueba de opción múltiple, donde cada respuesta corresponde a un porcentaje determinado, que luego se sumará con las demás respuestas para obtener un resultado final. 
+                p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Inductiva. Como su nombre lo indica, no tiene normas o criterios previos, por lo que su codificación se deberá desarrollar a partir de los resultados obtenidos durante el proceso investigativo.
+              .col-lg-3
                 figure
                   img(src='@/assets/curso/temas/Tema2/img3.png', alt='Texto que describa la imagen')
                   
           .py-3.py-md-4(titulo="Clasificación")
             .row
-              .col-md-6.mb-4.mb-md-0
+              .col-md-9.mb-4.mb-md-0
                 h4 Clasificación
-                p.text-small  Este es uno de los procesos primordiales para registrar la información. Hay cuatro formas básicas, que podrán ser utilizadas en cualquier medio:
-                p.text-small  #[b 1.] 
+                p  Este es uno de los procesos primordiales para registrar la información. Hay cuatro formas básicas, que podrán ser utilizadas en cualquier medio:
+                p  #[b 1.] 
                   | Hacer inventario. Esto es, agrupar toda la información recolectada, incluyendo elementos digitales, físicos y demás herramientas implementadas durante la recolección. 
-                p.text-small  #[b 2.] 
+                p  #[b 2.] 
                   |  Establecer criterios. Es fijar los estándares para clasificar la información. Por ejemplo, ordenarla según el tipo de organización a la que se le aplica la entrevista.
-                p.text-small  #[b 3.] 
+                p  #[b 3.] 
                   |  Clasificar los archivos. Ordenar cada uno de los documentos, datos o información obtenida, de acuerdo con los criterios establecidos en el paso anterior. 
-                p.text-small  #[b 4.] 
+                p  #[b 4.] 
                   |  Normas de tratamiento de la información. Dependerán de cada una de las organizaciones, sin embargo, es importante establecer normas de seguridad para acceder y manipular la información.
               
               
-              .col-md-3
+              .col-lg-3
                 figure
                   img(src='@/assets/curso/temas/Tema2/img4.png', alt='Texto que describa la imagen')
           .py-3.py-md-4(titulo="Organización")
             .row
-              .col-md-6.mb-4.mb-md-0
+              .col-md-9.mb-4.mb-md-0
                 h4 Organización
-                p.text-small Ordenar la información es vital para todo proceso investigativo. Depende de las normas o parámetros que determine la organización y el objetivo de la investigación misma. Un ejemplo es clasificar las preguntas desde los datos básicos de las personas o instituciones entrevistadas, pasando por respuestas cuantitativas, y por último, las respuestas cualitativas, las cuales suelen ser las de mayor relevancia para la empresa.
-              .col-md-3
+                p Ordenar la información es vital para todo proceso investigativo. Depende de las normas o parámetros que determine la organización y el objetivo de la investigación misma. Un ejemplo es clasificar las preguntas desde los datos básicos de las personas o instituciones entrevistadas, pasando por respuestas cuantitativas, y por último, las respuestas cualitativas, las cuales suelen ser las de mayor relevancia para la empresa.
+              .col-lg-3
                 figure
                   img(src='@/assets/curso/temas/Tema2/img5.png', alt='Texto que describa la imagen')
 
@@ -105,7 +105,7 @@
         .row.justify-content-center.mt-5
             .col-lg-5.mt-5               
               .bloque-texto-g.color-secundario.p-4.mb-4
-                .row.justify-content-center  
+                .row.justify-content-center.mt-5
                       
                   .col-lg-12.mt-5
                     p.edit-angle.mt-3 <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Gran parte de la información es accesible desde cualquier lugar del mundo, gracias a navegadores como Google o Firefox.
@@ -122,7 +122,7 @@
 
             .col-lg-6.mt-5            
               .bloque-texto-g.color-secundario.p-4.mb-4.heightbloquetexto
-                .row.justify-content-center  
+                .row.justify-content-center.mt-5  
                       
                   .col-lg-12.mt-5
                     p.edit-angle.mt-5 <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Alguna de la información registrada se encuentra obsoleta
@@ -168,10 +168,10 @@
             
             .row(titulo="Registrar todas las acciones que se desarrollen en tiempo real dentro del <em>software</em> ")
               .col-11
-                p.mb-0.text-small Esto facilitará conocer los movimientos y los encargados de ellos, por lo que, si ocurre algún error dentro del proceso, se identificará a la persona responsable de dicha acción.
+                p.mb-0 Esto facilitará conocer los movimientos y los encargados de ellos, por lo que, si ocurre algún error dentro del proceso, se identificará a la persona responsable de dicha acción.
             
             .row(titulo="Proteger elementos dentro del registro de información")
-              .col-11.text-small
+              .col-11
                 p.mb-0 El 
                   i software 
                   | deberá tener la capacidad de bloquear o eliminar elementos inútiles dentro del proceso productivo, y prevenir y eliminar posibles errores en la incorporación de nueva información.
@@ -183,7 +183,7 @@
                   | permita recuperar información con facilidad, por lo que deberá contener copias de seguridad y otros elementos básicos para este proceso.
 
             .row(titulo= "Tener un almacenamiento central")
-              .col-11.text-small
+              .col-11
                 p.mb-0 Es importante, ya que ubicar la información en diferentes repositorios impedirá que sea encontrada con rapidez, obstaculizando el proceso de investigación y seguimiento.
         .col-lg-5
           figure(data-aos="zoom-in")
@@ -199,10 +199,10 @@
               
               .row(titulo="Ser seguro ")
                 .col-11
-                  p.mb-0.text-small Un sistema de seguridad específico para el registro de información es fundamental debido a que esta puede caer en manos equivocadas, ocasionando problemas que incluso pueden trascender al ámbito legal.
+                  p.mb-0 Un sistema de seguridad específico para el registro de información es fundamental debido a que esta puede caer en manos equivocadas, ocasionando problemas que incluso pueden trascender al ámbito legal.
               
               .row(titulo="Leer varios formatos")
-                .col-11.text-small
+                .col-11
                   p.mb-0 La información puede estar registrada de diversas maneras: texto, audio, video, entre otros, por ello las herramientas informáticas deben ser capaces de leer cualquier documento en cualquier tipo de formato. 
               
               .row(titulo="Validar la búsqueda de información")
@@ -210,7 +210,7 @@
                   p.mb-0 Las herramientas informáticas deben ser capaces de encontrar de diferentes formas los datos almacenados; por este mismo motivo es importante que la información se guarde de manera ordenada y coherente.
               
               .row(titulo= "Ser accesible ")
-                .col-11.text-small
+                .col-11
                   p.mb-0 Es necesario que en cualquier lugar de la organización sea posible acceder a la información registrada.
         separador
         #t_2_4
@@ -231,7 +231,7 @@
                       figure
                         img(src="@/assets/curso/temas/Tema2/img14.svg").imgdimensioncajlila               
                     .col.lg-11                   
-                      p.text-small Verificar la información es vital en cualquier proceso investigativo. Esta actividad consiste en la inspección de cada uno de los documentos o datos almacenados en un registro. El proceso puede variar de acuerdo con las políticas organizacionales. Entre las características para el desarrollo de este proceso se encuentran las siguientes:
+                      p Verificar la información es vital en cualquier proceso investigativo. Esta actividad consiste en la inspección de cada uno de los documentos o datos almacenados en un registro. El proceso puede variar de acuerdo con las políticas organizacionales. Entre las características para el desarrollo de este proceso se encuentran las siguientes:
                   
                     
 
@@ -250,30 +250,29 @@
               
               .row(titulo="Tiempo")
                 .col-12
-                  p.mb-0.text-small Fijar o establecer un tiempo determinado para desarrollar el proceso de verificación, ya que este puede variar según los momentos en que se vincula nueva información. Inspeccionar la información previamente establecida ayudará a detectar posibles fallas o errores.
+                  p.mb-0 Fijar o establecer un tiempo determinado para desarrollar el proceso de verificación, ya que este puede variar según los momentos en que se vincula nueva información. Inspeccionar la información previamente establecida ayudará a detectar posibles fallas o errores.
               .row(titulo="Cambios en la clasificación de la información")
                 .col-12
-                  p.mb-0.text-small Si se desarrollan cambios específicos dentro de la forma de registrar información, se deberán verificar los datos almacenados dentro del sistema.
+                  p.mb-0 Si se desarrollan cambios específicos dentro de la forma de registrar información, se deberán verificar los datos almacenados dentro del sistema.
               
 
               .row(titulo="Incremento de la información")
-                .col-12.text-small
+                .col-12
                   p.mb-0 En algunos casos en donde la información registrada no sea lo suficientemente útil, permitirá verificar la antigua y nueva información que se va a almacenar, clasificándola de acuerdo con los criterios establecidos.
               
               .row(titulo="Verificación en caso de fraude")
                 .col-12
-                  p.mb-0.text-small Es posible que al desarrollar otros procesos investigativos las organizaciones encuentren fallas, errores o fraudes en investigaciones relevantes, por eso se podrá verificar información almacenada previamente.
+                  p.mb-0 Es posible que al desarrollar otros procesos investigativos las organizaciones encuentren fallas, errores o fraudes en investigaciones relevantes, por eso se podrá verificar información almacenada previamente.
 
               .row(titulo="Ajustes investigativos")
                 .col-12
-                  p.mb-0.text-small La información recolectada hace diez años variará, independientemente del enfoque en que se encuentre, por esto será primordial verificarla, con el fin de pasarla por un filtro para establecer su utilidad.
+                  p.mb-0 La información recolectada hace diez años variará, independientemente del enfoque en que se encuentre, por esto será primordial verificarla, con el fin de pasarla por un filtro para establecer su utilidad.
 
               .row(titulo="Cambios en los sistemas de registro de información")
                 .col-12
-                  p.mb-0.text-small Si se cambia la herramienta de registro de información, las organizaciones tendrán la oportunidad de verificar la información antes de pasarla al nuevo sistema.
+                  p.mb-0 Si se cambia la herramienta de registro de información, las organizaciones tendrán la oportunidad de verificar la información antes de pasarla al nuevo sistema.
             .row.justify-content-center      
-              .col-lg-10
-          
+              .col-lg-10          
                 p Supervisar la información es de suma importancia para cualquier entidad, por lo que diariamente las herramientas informáticas desarrollan nuevos elementos para la coordinación de los datos. Algunas de estas funciones son:           
 
          
@@ -296,18 +295,7 @@
             .col-lg-11
               p.mt-3 Aprendiz, ha culminado el estudio de todas las temáticas de este componente formativo, lo invitamos a que desarrolle la actividad didáctica y revise los materiales complementarios para que afiance sus conocimientos relacionados con la entrevista y el registro de información.  
 
-        .row.justify-content-center.mt-5  
-          .col-lg-2
-            figure
-              img(src='@/assets/curso/temas/Tema2/img14.png')
-          .col-lg-10                  
-            .bloque-texto-g.color-secundario.p-4.mb-4
-              .row           
-                .col-lg-8
-                  p.text-left El registro de la información es uno de los pasos fundamentales para el desarrollo investigativo. De ello dependerá conocer si todo el proceso ha sido lo suficientemente útil y eficaz para la institución. Este registro de información se encuentra adjunto con pasos específicos como la codificación, clasificación y organización. Otro aspecto, igual de importante, es verificar y supervisar adecuadamente esa información, con el fin de evitar fraudes u otros inconvenientes que desvíen el objetivo de la investigación.
-
-
-
+      
 
 
 

@@ -61,7 +61,7 @@
               p.mb-0 Estas entrevistas se caracterizan porque el entrevistador no sigue un orden. Son únicas para cada candidato, ya que según transcurre la entrevista, el entrevistador hará, o no, algunas preguntas. Entre sus principales características está que en su mayoría son improvisadas y tienen una gran adaptabilidad a los temas tratados. Cabe resaltar que el hecho de que estas entrevistas sean ‘improvisadas’ no significa que el entrevistador desconozca el tema, más bien es todo lo contrario, ya que el entrevistador debe conocerlo lo suficientemente bien como para poder tener la flexibilidad y capacidad de hacer preguntas aleatorias y acertadas.
 
 
-    p Es importante mencionar que la entrevista es una técnica para recoger información que puede presentar tanto beneficios como desventajas para la organización que la práctica. Algunos de los factores más relevantes son:
+    p Es importante mencionar que la entrevista es una técnica para recoger información que puede presentar tanto beneficios como desventajas para la organización que la practica. Algunos de los factores más relevantes son:
     .row.justify-content-around.align-items-center.mt-2.mb-5
       .col-lg-7
         ImagenInfograficaB.color-acento-botones

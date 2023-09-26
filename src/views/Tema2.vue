@@ -49,8 +49,8 @@
           .col-md-9.mb-4.mb-md-0
             h4 Codificación
             p Su objetivo es categorizar y validar los datos recolectados antes del proceso investigativo. A pesar de que los datos cuantitativos también deben cumplir con el proceso de codificación, se debe dejar en claro la importancia de invertir mayor tiempo y recursos para la adecuada codificación de la información cualitativa, que arroja resultados únicos. Existen dos formas de codificación:
-            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Deductiva. En este caso, se deberán plantear características concretas antes de recolectar la información, deben indicarse las normas o códigos específicos para codificarla. Un ejemplo es una prueba de opción múltiple, donde cada respuesta corresponde a un porcentaje determinado, que luego se sumará con las demás respuestas para obtener un resultado final. 
-            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Inductiva. Como su nombre lo indica, no tiene normas o criterios previos, por lo que su codificación se deberá desarrollar a partir de los resultados obtenidos durante el proceso investigativo.
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Deductiva: en este caso, se deberán plantear características concretas antes de recolectar la información, deben indicarse las normas o códigos específicos para codificarla. Un ejemplo es una prueba de opción múltiple, donde cada respuesta corresponde a un porcentaje determinado, que luego se sumará con las demás respuestas para obtener un resultado final. 
+            p.edit-angle <i class="fas fa-angle-right" STYLE="Color: #642DC6"></i>  Inductiva: como su nombre lo indica, no tiene normas o criterios previos, por lo que su codificación se deberá desarrollar a partir de los resultados obtenidos durante el proceso investigativo.
           .col-lg-3
             figure
               img(src='@/assets/curso/temas/Tema2/img3.png', alt='')
@@ -61,13 +61,13 @@
             h4 Clasificación
             p  Este es uno de los procesos primordiales para registrar la información. Hay cuatro formas básicas, que podrán ser utilizadas en cualquier medio:
             p  #[b 1.] 
-              | Hacer inventario. Esto es, agrupar toda la información recolectada, incluyendo elementos digitales, físicos y demás herramientas implementadas durante la recolección. 
+              | Hacer inventario: esto es, agrupar toda la información recolectada, incluyendo elementos digitales, físicos y demás herramientas implementadas durante la recolección. 
             p  #[b 2.] 
-              |  Establecer criterios. Es fijar los estándares para clasificar la información. Por ejemplo, ordenarla según el tipo de organización a la que se le aplica la entrevista.
+              |  Establecer criterios: es fijar los estándares para clasificar la información. Por ejemplo, ordenarla según el tipo de organización a la que se le aplica la entrevista.
             p  #[b 3.] 
-              |  Clasificar los archivos. Ordenar cada uno de los documentos, datos o información obtenida, de acuerdo con los criterios establecidos en el paso anterior. 
+              |  Clasificar los archivos: ordenar cada uno de los documentos, datos o información obtenida, de acuerdo con los criterios establecidos en el paso anterior. 
             p  #[b 4.] 
-              |  Normas de tratamiento de la información. Dependerán de cada una de las organizaciones, sin embargo, es importante establecer normas de seguridad para acceder y manipular la información.
+              |  Normas de tratamiento de la información: dependerán de cada una de las organizaciones, sin embargo, es importante establecer normas de seguridad para acceder y manipular la información.
           
           
           .col-lg-3
@@ -139,7 +139,7 @@
             .col-11
               p.mb-0 El 
                 i software 
-                | deberá tener la capacidad de bloquear o eliminar elementos inútiles dentro del proceso productivo, y prevenir y eliminar posibles errores en la incorporación de nueva información.
+                | deberá tener la capacidad de bloquear o eliminar elementos inútiles dentro del proceso productivo, prevenir y eliminar posibles errores en la incorporación de nueva información.
           
           .row(titulo="Recuperar la información")
             .col-11
